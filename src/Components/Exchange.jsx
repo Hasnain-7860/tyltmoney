@@ -69,7 +69,7 @@ const Exchange = () => {
          viewport={{  }}
          
          transition={{
-           type:"one time  ",
+           type:" ",
            stiffness:100,
            damping:10,
            delay:1.5,
