@@ -47,6 +47,24 @@ const Slider2 = () => {
                 <div class="slide-image">
                    <img className='w-[90px]' src={sliderimg} alt="" /> 
                 </div>
+                <div class="slide-image">
+                   <img className='w-[90px]' src={sliderimg} alt="" /> 
+                </div>
+                <div class="slide-image">
+                   <img className='w-[90px]' src={sliderom} alt="" /> 
+                </div>
+                <div class="slide-image">
+                   <img className='w-[90px]' src={sliderimg} alt="" /> 
+                </div>
+                <div class="slide-image">
+                   <img className='w-[90px]' src={sliderom} alt="" /> 
+                </div>
+                <div class="slide-image">
+                   <img className='w-[90px]' src={sliderimg} alt="" /> 
+                </div>
+                <div class="slide-image">
+                   <img className='w-[90px]' src={sliderom} alt="" /> 
+                </div>
                 </div>
                 </div>
                 </div>
