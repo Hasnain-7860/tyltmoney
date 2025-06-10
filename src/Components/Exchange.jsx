@@ -11,25 +11,23 @@ const Exchange = () => {
     <div>
     <div className='container '>
         <motion.div
-        initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
-        transition={{
-          type:"slide",
-          stiffness:100,
-          damping:10,
-          delay:1.5,
-        }}
+        initial={{opacity:0 , y:100}} 
+            transition={{
+            duration:1.5
+            }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}}
         // initial={{ y: -50, opacity: 0 }}
         //   animate={{ y: 0, opacity: 1 }}
         //   transition={{ duration: 0.5, delay: 0.2 }}
         className=' py-12 text-[40px] font-semibold'>Why choose Tylt’s <span className='text-green-500'>P2P Exchange?</span> </motion.div>
         <motion.div
-         initial={{opacity:0 , y:100}} animate={{opacity:1, y:0}}
-         transition={{
-           type:"slide ",
-           stiffness:100,
-           damping:10,
-           delay:1.5,
-         }}
+       initial={{opacity:0 , y:100}} 
+            transition={{
+            duration:1.5
+            }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}}
         // transition={{ duration: 0.5, delay: 0.9 }}
         className='max-w-8xl  grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6  '>
             <div className='p-6 bg-white rounded-xl shadow-md border border-solid border-2 border-black h-[130px] hover:scale-105 duration-100 '>
@@ -65,16 +63,12 @@ const Exchange = () => {
             </div>
         </motion.div>
         <motion.button
-         initial={{opacity:0 , y:-50}} animate={{opacity:1, y:0}}
-         viewport={{  }}
-         
-         transition={{
-           type:" ",
-           stiffness:100,
-           damping:10,
-           delay:1.5,
-            
-         }}
+       initial={{opacity:0 , y:100}} 
+            transition={{
+            duration:1.5
+            }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}}
         // initial={{ y: -50, opacity: 0 }}
         //   animate={{ y: 0, opacity: 1 }}
         //   transition={{ duration: 0.5, delay: 10.9 }}

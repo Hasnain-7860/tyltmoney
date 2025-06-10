@@ -10,13 +10,12 @@ const Buy = () => {
   return (
     <div className='bg-gray-100 py-20 mb-20' >
         <motion.div
-         initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
-         transition={{
-           type:"",
-           stiffness:100,
-           damping:10,
-           delay:0.2,
-         }} 
+         initial={{opacity:0 , y:100}} 
+            transition={{
+            duration:1.5
+            }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}}
         className='grid grid-cols-1 lg:grid-cols-2 container'>
            <div className=' '>
              <h1 className='text-[28px] font-semibold lg:text-[40px] font-bold ' > Want to create offers on Tylt ? Become a <span className='text-green-500'>Supplier</span> today!</h1>
@@ -28,13 +27,12 @@ const Buy = () => {
             </div>
         </motion.div>
         <motion.div
-         initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
-         transition={{
-           type:"",
-           stiffness:100,
-           damping:10,
-           delay:0.2,
-         }} 
+         initial={{opacity:0 , y:100}} 
+            transition={{
+            duration:1.5
+            }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}} 
         className='container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 py-10'>
             <div className=' hover:scale-105 duration-100 mt-10'>
             <IoMdContact className=' text-[50px] lg:text-[30px]' />

@@ -10,13 +10,12 @@ const Bacdeb = () => {
     <div>
         <div className='grid grid-cols-1 sm:grid-cols-2 mt-10 '>
             <motion.div
-            initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
+            initial={{opacity:0 , y:100}} 
             transition={{
-              type:"",
-              stiffness:100,
-              damping:10,
-              delay:1,
+            duration:1.5
             }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}}
             className='bg-sky-100 container  py-10'>
                 <h1 className='text-[30px] font-bold lg:text-[45px]  '>Backed by the Best. <br />
                 Supported by Venture Firms.</h1>
@@ -29,13 +28,12 @@ const Bacdeb = () => {
             </motion.div>
             <div>
                 <motion.div
-                initial={{opacity:0 , y:100}} whileInView={{opacity:1, y:0}}
-                transition={{
-                  type:"",
-                  stiffness:100,
-                  damping:10,
-                  delay:1.2,
-                }}
+                initial={{opacity:0 , y:100}} 
+            transition={{
+            duration:1.5
+            }}
+            whileInView={{opacity:1,y:0}}
+            viewport={{once:true}}
                 className='bg-sky-50 container py-10 h-[100%]'>
                     <h1 className='text-[30px] font-bold lg:text-[45px]'>Dedicated to security.  <br />
                     Committed to compliance.</h1>
