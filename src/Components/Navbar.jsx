@@ -4,7 +4,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 import {motion} from "framer-motion";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GoX } from "react-icons/go";
-
+import img from '../assets/menu_icon.svg';
 
 
 
@@ -37,10 +37,10 @@ const Navbar = () => {
         
         </ul>
             </div> 
-        
-        <button className='text-[30px]  lg:hidden absolute right-0 ' onClick={toggleNavbar}>{isOpen ? <GoX />:<GiHamburgerMenu/> }   
-        </button>
- 
+                    <img onClick={()=>setIsOpen(true)} className='md:hidden w-7 cursor-pointer' src={img} alt="" />
+
+        {/* <button className='text-[30px]  lg:hidden absolute right-0 ' onClick={toggleNavbar}>{isOpen ? <GoX />:<GiHamburgerMenu/> }   
+        </button> */}
         <div className=' hidden  md:hidden  lg:flex  '>
             <button onClick={()=>setShowUserLogin(true)} className='font-bold text-blue-500  py-1 px-5 flex rounded-md mt-4 items-center hover:text-black' >LOG IN <MdArrowForwardIos /> </button>
            
