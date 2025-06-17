@@ -39,8 +39,8 @@ const Navbar = () => {
             </div> 
                     <img onClick={()=>setIsOpen(true)} className='md:hidden w-7 cursor-pointer' src={img} alt="" />
 
-        {/* <button className='text-[30px]  lg:hidden absolute right-0 ' onClick={toggleNavbar}>{isOpen ? <GoX />:<GiHamburgerMenu/> }   
-        </button> */}
+        <button className='text-[30px]  lg:hidden absolute right-0 ' onClick={toggleNavbar}>{isOpen ? <GoX />:<GiHamburgerMenu/> }   
+        </button>
         <div className=' hidden  md:hidden  lg:flex  '>
             <button onClick={()=>setShowUserLogin(true)} className='font-bold text-blue-500  py-1 px-5 flex rounded-md mt-4 items-center hover:text-black' >LOG IN <MdArrowForwardIos /> </button>
            
